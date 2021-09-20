@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./App.css";
 
-const API = "http://localhost:8000/api";
+const API = "https://radiation-view-server.herokuapp.com/api";
 const maxData = 50;
 let interval = null;
 
